@@ -2,6 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common';
 export { AuthModule } from './auth/auth.module';
+// export {Aut} from './auth/guard/index';
 
 
 async function bootstrap() {
